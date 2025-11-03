@@ -56,8 +56,9 @@ pytest_cache/
 .cache
 
 # Django migrations (optional, sometimes you want them in repo)
-**/migrations/*.py
-!**/migrations/__init__.py
+# **/migrations/*.py
+# # */migrations
+# !**/migrations/__init__.py
 
 # VS Code / IDE files
 .vscode/
@@ -78,3 +79,5 @@ Desktop.ini
 
 # Environment-specific files
 .env.*
+
+/migrations
